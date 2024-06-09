@@ -1,8 +1,6 @@
-'use server';
-
 import { Profile } from '@/components';
 
-export default async function ProfilePage() {
+export default function ProfilePage() {
   return (
     <Profile
       name='Александр Магомедов'
