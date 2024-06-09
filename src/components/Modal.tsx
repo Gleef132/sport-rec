@@ -70,6 +70,19 @@ export const Modal = () => {
             >
               <MenuCloseSvg />
             </Box>
+            <Box
+              sx={{
+                display: { xs: 'block', sm: 'none' },
+                position: 'absolute',
+                top: '-8px',
+                left: '50%',
+                transform: 'translateX(-50%) translateY(-100%)',
+                width: '56px',
+                height: '5px',
+                borderRadius: '7px',
+                bgcolor: '#fff'
+              }}
+            ></Box>
             {modalContent}
           </Box>
         </>,
