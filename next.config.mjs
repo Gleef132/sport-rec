@@ -11,7 +11,8 @@ const nextConfig = {
 
     return config;
   },
-  basePath: '/sport-rec'
+  basePath: '/sport-rec',
+  assetPrefix: '/sport-rec/'
 };
 
 export default nextConfig;
