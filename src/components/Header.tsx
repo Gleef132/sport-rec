@@ -48,17 +48,13 @@ const PAGES = [
   }
 ];
 
-interface HeaderProps {
-  isAuth: string | undefined;
-}
-
 // Этот компонент по хорошему бы разделить на несколько компонентов, но времени не хватает)
 
-export const Header: React.FC<HeaderProps> = (props) => {
+export const Header = () => {
   const [menuIsActive, setMenuIsActive] = useState(false);
   const { setModalIsActive, setModalContent } = useContext(ModalContext);
   const { getCookie } = useCookies();
-  const isAuth: string | undefined = props.isAuth || getCookie('isAuth');
+  const isAuth: string | undefined = getCookie('isAuth');
 
   const modalOpen = (stage: Stage) => {
     setModalIsActive(true);

@@ -23,8 +23,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const cookiesList = cookies();
-  const isAuthCookie = cookiesList.get('isAuth');
+  // const cookiesList = cookies();
+  // const isAuthCookie = cookiesList.get('isAuth');
 
   return (
     <ThemeProvider theme={MyTheme}>
@@ -38,7 +38,7 @@ export default function RootLayout({
               fontFamily: `${inter.style.fontFamily} !important`
             }}
           >
-            <Header isAuth={isAuthCookie?.value} />
+            <Header />
             {children}
             <div id='portal'></div>
             <Modal />
