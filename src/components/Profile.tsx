@@ -152,7 +152,7 @@ export const Profile: React.FC<ProfileProps> = ({ name, avatar, subscribers, sub
                 </Typography>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-                    <Box component='img' alt='avatar' src='/images/subscribers.png' />
+                    <Box component='img' alt='avatar' src='./images/subscribers.png' />
                     <Typography
                       sx={{
                         fontSize: '14px',
@@ -171,7 +171,7 @@ export const Profile: React.FC<ProfileProps> = ({ name, avatar, subscribers, sub
                     </Typography>
                   </Box>
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-                    <Box component='img' alt='avatar' src='/images/subscriptions.png' />
+                    <Box component='img' alt='avatar' src='./images/subscriptions.png' />
                     <Typography
                       sx={{
                         fontSize: '14px',
@@ -401,7 +401,7 @@ export const Profile: React.FC<ProfileProps> = ({ name, avatar, subscribers, sub
                   <Box
                     component='img'
                     alt='avatar'
-                    src={`/images/athlete-${subscription.imgSrc}.png`}
+                    src={`./images/athlete-${subscription.imgSrc}.png`}
                     sx={{ width: '41px', height: '41px' }}
                   />
                   <Box sx={{ position: 'absolute', right: '0', bottom: '0' }}>

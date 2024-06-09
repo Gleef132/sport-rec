@@ -51,7 +51,7 @@ export const SelectionSport = () => {
           <Box
             component='img'
             alt={item}
-            src={`/images/sport-${index + 1}.png`}
+            src={`./images/sport-${index + 1}.png`}
             sx={{
               width: '100%',
               height: '100%',

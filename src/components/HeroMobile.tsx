@@ -4,7 +4,7 @@ import { Card, CardProps } from './Card';
 const CARDS: CardProps[] = [
   {
     date: '12 марта, 2024 в 16:03',
-    imageSrc: '/images/hero-mobile-card-1.png',
+    imageSrc: './images/hero-mobile-card-1.png',
     title:
       'Противостояние В Мире Спортивной Борьбы: Атлеты Превращают Тренировочные Арены в Арены Героев',
     text: 'Спортивная Борьба',
@@ -12,7 +12,7 @@ const CARDS: CardProps[] = [
   },
   {
     date: '12 марта, 2024 в 16:03',
-    imageSrc: '/images/hero-mobile-card-2.png',
+    imageSrc: './images/hero-mobile-card-2.png',
     title:
       'Звездные конькобежки и тренер сборной России уезжают в Казахстан. Серьезные потери нашей команды',
     text: 'Конькобежный спорт',
@@ -20,7 +20,7 @@ const CARDS: CardProps[] = [
   },
   {
     date: '12 марта, 2024 в 16:03',
-    imageSrc: '/images/hero-mobile-card-3.png',
+    imageSrc: './images/hero-mobile-card-3.png',
     title: 'Илья Бессонов дал интервью для телеканала Россия-1',
     text: 'Спортивная Борьба'
   }

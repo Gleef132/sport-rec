@@ -94,7 +94,7 @@ export const TapeFilter = () => {
       <Box sx={{ position: 'relative' }}>
         <Box
           component={'img'}
-          src='/images/tape-filter-card-img.png'
+          src='./images/tape-filter-card-img.png'
           sx={{
             borderRadius: '20px',
             borderBottomLeftRadius: '22px',

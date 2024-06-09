@@ -98,7 +98,7 @@ export const Hero = () => {
               <Box key={index}>
                 <Box
                   component={'img'}
-                  src={`/images/hero-img-${index + 1}.png`}
+                  src={`./images/hero-img-${index + 1}.png`}
                   sx={{
                     width: '100%',
                     height: 'auto',
@@ -156,7 +156,7 @@ export const Hero = () => {
             <Box sx={{ display: 'flex', gap: '12px' }}>
               <Box
                 component={'img'}
-                src='/images/comment-avatar-1.png'
+                src='./images/comment-avatar-1.png'
                 sx={{ width: 40, height: 40 }}
                 alt={'avatar'}
               ></Box>
@@ -211,7 +211,7 @@ export const Hero = () => {
             <Box sx={{ display: 'flex', gap: '12px', px: '32px' }}>
               <Box
                 component={'img'}
-                src='/images/comment-avatar-2.png'
+                src='./images/comment-avatar-2.png'
                 sx={{ width: 40, height: 40 }}
                 alt={'avatar'}
               ></Box>

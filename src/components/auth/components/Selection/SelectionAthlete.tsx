@@ -172,7 +172,7 @@ export const SelectionAthlete: React.FC<SelectionAthleteProps> = ({ stage }) => 
                 {isAtlete ? (
                   <Box
                     component={'img'}
-                    src={`/images/athlete-${item.imgSrc}.png`}
+                    src={`./images/athlete-${item.imgSrc}.png`}
                     alt={item.name}
                     sx={{
                       width: '60px',

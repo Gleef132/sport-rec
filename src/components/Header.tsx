@@ -205,7 +205,7 @@ export const Header = () => {
                 <Link href={'/profile'}>
                   <Box
                     component={'img'}
-                    src={'/images/avatar.png'}
+                    src={'./images/avatar.png'}
                     sx={{ width: '36px', height: '36px', borderRadius: '50%' }}
                     alt={'avatar'}
                   />
@@ -267,7 +267,7 @@ export const Header = () => {
               >
                 <Box
                   component={'img'}
-                  src={'/images/avatar.png'}
+                  src={'./images/avatar.png'}
                   sx={{ width: '36px', height: '36px', borderRadius: '50%' }}
                   alt={'avatar'}
                 />
