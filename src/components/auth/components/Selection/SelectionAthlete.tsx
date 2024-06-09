@@ -133,7 +133,13 @@ export const SelectionAthlete: React.FC<SelectionAthleteProps> = ({ stage }) => 
       }}
     >
       <Box sx={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-        <Input placeholder='Поиск' icon={<SearchSvg />} autoComplete='off' ref={null} />{' '}
+        <Input
+          placeholder='Поиск'
+          icon={<SearchSvg />}
+          autoComplete='off'
+          iconPosition='left'
+          ref={null}
+        />{' '}
         <Button
           variant='contained'
           sx={{
