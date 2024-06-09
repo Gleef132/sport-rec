@@ -1,0 +1,32 @@
+@import url('./null.css');
+
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+
+.loader {
+  animation-name: Loding;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Loding {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
