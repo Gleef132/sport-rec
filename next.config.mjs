@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  distDir: 'dist',
   reactStrictMode: false,
   webpack(config) {
     config.module.rules.push({
